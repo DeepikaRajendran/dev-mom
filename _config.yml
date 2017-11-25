@@ -2,7 +2,7 @@ title:            Developer Mom
 description:      A blog on development and being mom.
 disqus_shortname: developer-mom-blog
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://depikarajendran.github.io/dev-mom
+url:              https://deepikarajendran.github.io/dev-mom/
 
 # Owner/author information
 owner:
