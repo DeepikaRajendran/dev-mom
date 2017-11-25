@@ -113,12 +113,15 @@ export class ToysComponent implements OnInit {
 `toy` property is modified to be of type `Toy` and initialized with name `Teddy Bear` and color as `Brown`.
 
 We should change the `toyComponent` template file to display the property values , since we have modified the `toy` from string to object
+
 #### `src/app/toys/toys.component.html`
-```html
+
+{% highlight html %}
 <p>
   {{ toy.color}} {{toy.name}} 
 </p>
-```
+{% endhighlight %}
+
 Here is the Output
 
 ![alt_text](https://github.com/DeepikaRajendran/dev-mom/raw/master/images/baby_favorite_toy_color.png)
