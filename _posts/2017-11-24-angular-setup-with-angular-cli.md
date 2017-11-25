@@ -1,5 +1,3 @@
-# Angular setup using angular-cli
-
 The [Angular CLI](https://github.com/angular/angular-cli) is a command-line interface tool to setup the angular development environment and create a project with running code.
 
 To setup the development environment,

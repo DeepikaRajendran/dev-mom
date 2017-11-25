@@ -1,5 +1,3 @@
-# Binding data in Template
-
 In this post, we'll see how to bind data from component to template.
 
 
@@ -57,6 +55,7 @@ h1{
 }
 ```
 You can see the color of the browser output changes instantly.
+
 ![alt_text](https://github.com/DeepikaRajendran/dev-mom/raw/master/images/baby_favorite_1.png)
 
 I have added a simple CSS style, just to show the usage of the file.
