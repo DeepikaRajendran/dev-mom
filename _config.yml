@@ -42,13 +42,14 @@ timezone:    America/New_York
 future:      true
 highlighter:    true
 markdown:    kramdown
+share: true
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
 paginate: 5
-{% highlight yaml %} share: true {% endhighlight %}
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
