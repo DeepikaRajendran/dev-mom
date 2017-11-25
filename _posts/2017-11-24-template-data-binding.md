@@ -9,7 +9,7 @@ export class AppComponent {
 ```
 And in `src/app/app.component.html` file, use interpolation {{ }} to display the component property.
 
-```HTML
+```
 <h1>
     {{title}}!
 </h1>
