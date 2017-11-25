@@ -1,5 +1,5 @@
 In this post, we'll see how to bind data from component to template.
-
+Refer my [previous post](https://deepikarajendran.github.io/dev-mom//angular-setup-with-angular-cli/) for initial angular environment setup 
 
 Add `title` property  to `src/app/app.component.ts`
 ```typescript
@@ -49,7 +49,7 @@ We should import `Component` symbol from Angular core library and annotate compo
 3. `styleUrls` - location of component CSS file
 
 Add the below style to `src/app/app.component.css`
-```CSS
+```
 h1{
     color: violet;
 }
