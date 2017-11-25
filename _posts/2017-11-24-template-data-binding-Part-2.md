@@ -49,12 +49,13 @@ export class ToysComponent implements OnInit {
 ```
 #### `src/app/toys/toys.component.html`
 Add toy component property to the template for binding the value
-```html
+```pre
 {{toy}}
 ```
 #### `src/app/app.component.html`
 Now , add the `<app-toys>` element to template file, since we have declared `toysComponent` selector as `app-toys` in compoenent file.
-```html
+
+```pre
   <h1>
     {{title}}!
   </h1>
