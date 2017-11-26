@@ -1,6 +1,12 @@
+---
+> " You will always be your child's favorite toy."
+
 In the [previous post](https://deepikarajendran.github.io/dev-mom/template-data-binding/), we have learnt to do simple template binding from the component property.
 
-### Now, we'll see how to bind property from a component to its parent component .
+### Now, we'll see how to 
+1. bind property from a component to its parent component 
+
+2. list baby toys using *ngFor directive.
 
 #### Generate a new component using CLI
 ```
@@ -122,4 +128,52 @@ Here is the Output
 
 ![alt_text](https://github.com/DeepikaRajendran/dev-mom/raw/master/images/baby_favorite_toy_color.png)
 
+Now, add few more toys to the `ToyComponent`.
+
+`src/app/toys/toys.component.ts`
+```typescript
+toys: Toy[] = [
+    {
+    name: 'Teddy Bear',
+    color: 'Brown'
+  },
+  {
+    name: 'Elephant',
+    color: 'Black'
+  },
+  {
+    name: 'Baby Doll',
+    color: 'Pink'
+  },
+  {
+    name: 'Duck',
+    color: 'Yellow'
+  }
+  
+];
+```
+Initialize `toys` property as an array with `name`, `color` properties to `Toy` Objects
+
+Now, we have to modify the template file to display all the toys.
+
+Lets use `*ngFor` directive to iterate through each toy in the `toys` component property.
+
+`src/app/toys/toys.component.html`
+
+```html
+<h2>My favorite toy is: {{toys[0].name}}</h2>
+<p>Toys:</p>
+<ul>
+  <li *ngFor="let toy of toys">
+    {{toy.color}} {{ toy.name }}
+  </li>
+</ul>
+```
+The result looks like this -
+
+with favorite toy as the first element of the `toys` array property and the list of all toys:
+
+![alt-text](https://github.com/DeepikaRajendran/dev-mom/raw/master/images/baby_favorite_toys.png)
+
+#### Sourcecode is available [here](https://github.com/DeepikaRajendran/baby-app/tree/template_binding_list_toys)
 
