@@ -1,6 +1,6 @@
 title:            Developer Mom
 description:      A blog on development and being mom.
-disqus_shortname: developer-mom-blog
+disqus_shortname: dev-mom
 #Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              https://deepikarajendran.github.io/dev-mom/
 
@@ -63,6 +63,7 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
+    coderay_wrap: nil
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
