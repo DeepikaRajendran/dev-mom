@@ -3,7 +3,7 @@ layout: post
 title: "Angular Setup with ng-cli"
 tags: [angular]
 image:
-  feature: baby_favorite
+  feature: avatar.jpg
   credit: 
   creditlink: 
 comments: true
