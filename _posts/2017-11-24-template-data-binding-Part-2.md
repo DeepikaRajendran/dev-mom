@@ -15,7 +15,7 @@ share: true
 In the [previous post](https://deepikarajendran.github.io/dev-mom/template-data-binding/), we have learnt to do simple template binding from the component property.
 
 ### Now, we'll see how to 
-1. bind property from a component to its parent component 
+1. bind property between a child component and its parent component 
 
 2. list baby toys using *ngFor directive.
 
