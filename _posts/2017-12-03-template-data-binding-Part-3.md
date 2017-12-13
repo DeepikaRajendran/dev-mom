@@ -8,8 +8,8 @@ In this post, we'll see how to add element to the displayed list using
 Add below code to `src/app/toys/toys.component.html`
 
 ```html
-    <input #toy placeholder = "Toy Name" />
-    <input #color placeholder = "Toy Color" />
+<input #toy placeholder = "Toy Name" />
+<input #color placeholder = "Toy Color" />
 ```
 Here , we are adding 2 input fields to input `toy name and color`, where `#toy`, `#color` are Template Reference Variables.
 

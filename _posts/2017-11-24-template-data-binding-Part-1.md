@@ -9,7 +9,7 @@ export class AppComponent {
 ```
 And in `src/app/app.component.html` file, use interpolation {{ }} to display the component property.
 
-``` HTML
+```html
 <h1>
     {{title}}!
 </h1>
@@ -38,7 +38,7 @@ We should import `Component` symbol from Angular core library and annotate compo
 
 1. `selector` - the component CSS selector
     The selector 'app-root' is added to `index.html` by cli generator.
-    ```HTML
+    ```html
     <body>
         <app-root></app-root>
     </body>
@@ -49,7 +49,7 @@ We should import `Component` symbol from Angular core library and annotate compo
 3. `styleUrls` - location of component CSS file
 
 Add the below style to `src/app/app.component.css`
-```CSS
+```css
 h1{
     color: violet;
 }

@@ -66,13 +66,13 @@ export class ToysComponent implements OnInit {
 ```
 #### `src/app/toys/toys.component.html`
 Add toy component property to the template for binding the value
-```
+```html
 {{toy}}
 ```
 #### `src/app/app.component.html`
 Now , add the `<app-toys>` element to template file, since we have declared `toysComponent` selector as `app-toys` in compoenent file.
 
-```
+```html
   <h1>
     {{title}}!
   </h1>
@@ -133,11 +133,9 @@ We should change the `toyComponent` template file to display the property values
 
 #### `src/app/toys/toys.component.html`
 
-{% highlight html %}
-<p>
+```html
   {{ toy.color}} {{toy.name}} 
-</p>
-{% endhighlight %}
+```
 
 Here is the Output
 
