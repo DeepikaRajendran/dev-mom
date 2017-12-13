@@ -9,9 +9,9 @@ image:
 comments: true
 share: true
 ---
----
+<!-- ---
 > " You will always be your child's favorite toy."
----
+--- -->
 In the [previous post](https://deepikarajendran.github.io/dev-mom/template-data-binding/), we have learnt to do simple template binding from the component property.
 
 ### Now, we'll see how to 
