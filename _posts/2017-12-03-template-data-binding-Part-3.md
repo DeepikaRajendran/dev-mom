@@ -74,6 +74,6 @@ addToy(){
     this.toys.push(this.toy);
   }
 ```
-Now, if you go thorugh the component class, you can see that we are no more passing any parameter from template to component in `addToy()` method, since `ngModel` do the 2-way binding.
+Now, if you go through the component class, you can see that we are no more passing any parameter from template to component in `addToy()` method, since `ngModel` do the 2-way binding.
 
 
