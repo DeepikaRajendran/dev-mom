@@ -18,7 +18,7 @@ The [Angular CLI](https://github.com/angular/angular-cli) is a command-line inte
 To setup the development environment,
 #### Install angular-cli globally
 ``` 
-npm install -g @angular\cli
+npm install -g @angular/cli
 ```
 #### Generate new Project
 Create a new project and navigate to the project directory
