@@ -92,6 +92,7 @@ transform(toy: Toy){
 Here, we are styling each toy to appear in its own color in the Toys List.
 
 Let's check the output:
+
 ![alt-text](https://github.com/DeepikaRajendran/dev-mom/raw/master/images/custom-pipe-0.png)
 
 Eventhough we are adding the styling for the list of toys, they didn't appear.
