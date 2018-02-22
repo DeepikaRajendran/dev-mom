@@ -71,7 +71,7 @@ export class ColorPipe implements PipeTransform{
 }
 ```
 `src/app/toys/toys.component.html` 
-```
+```html
 <ul>
   <li *ngFor="let toy of toys">
     <div [innerHTML]="toy | color"></div> 
