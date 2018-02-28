@@ -16,7 +16,7 @@ npm install --save @angular/material @angular/cdk
 ```
 
 #### Install Angular animations
-Install @angular/animations as some Material components are depend on Angular animation module to do advanced transitions.
+Install @angular/animations, as some Material components are depend on Angular animations module to do advanced transitions.
 ```
 npm install --save @angular/animations
 
