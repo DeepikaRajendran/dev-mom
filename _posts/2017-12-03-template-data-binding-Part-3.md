@@ -13,10 +13,8 @@ Add below code to `src/app/toys/toys.component.html`
 ```
 Here , we are adding 2 input fields to input `toy name and color`, where `#toy`, `#color` are Template Reference Variables.
 
+>A template reference variable is a reference to the DOM element within a template.
 
-```
-A template reference variable is a reference to the DOm element within a template.
-```
 `#` symbol before the variable declares it as reference variable and it references the element of the input field.
 
 We can also declare the reference variable with the prefix `ref-`
@@ -28,7 +26,7 @@ We can also declare the reference variable with the prefix `ref-`
 
 `#phone` references the whole phone input element, whereas the `phone.value` contains the user typed value.
 
-This reference variable lets us use the value of the DOM element directly inside the template without the need to pass through the component.
+This reference variable let us use the value of the DOM element directly inside the template without the need to pass through the component.
 
 Now, add `click` event handling to add the toy to the list.
 ```html

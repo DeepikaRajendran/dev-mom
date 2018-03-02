@@ -1,12 +1,10 @@
 In this post, we'll see how to build Angular app using Material design.
 
-#### Why should we use Angular Material? Can't we use Bootstrap UI?
+>Why should we use Angular Material? Can't we use Bootstrap UI?
  We can use either Bootstrap library or Material to build Angular 5 Apps. But we prefer Material design over Bootstrap, since Material library is -
+>  1. easy to use, as it is built using Angular and Typescript, usage will be as simple as using an Angular component. 
+> 2. provides high quality UI Components for both Mobile and Desktop devices. 
 
-```
-  1. easy to use, as it is built using Angular and Typescript, usage will be as simple as using an Angular component. 
-  2. provides high quality UI Components for both Mobile and Desktop devices. 
-```
 
 Let's get started with Angular Material.
 

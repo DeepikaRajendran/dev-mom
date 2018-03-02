@@ -1,10 +1,10 @@
 In this post, we are going to see the basic built-in directives that angular offers.
 
-### Built-in directives are the attributes we add to our HTML elements that give us dynamic behavior.
+>Built-in directives are the attributes we add to our HTML elements that give us dynamic behavior.
 
 #### NgIf
 
-The `ngIf` directive is used when we want to show/hide an element based on a condition. If the result of the expression that is passed to the directive's condition is failed or evaluate to false, the element will be removed from the DOM.
+>The `ngIf` directive is used when we want to show/hide an element based on a condition. If the result of the expression that is passed to the directive's condition is failed or evaluate to false, the element will be removed from the DOM.
 
 ```html
 <div *ngIf="false">
@@ -19,7 +19,7 @@ The `ngIf` directive is used when we want to show/hide an element based on a con
 
 #### NgSwitch
 
-The `ngSwitch` directive is used in case, where there are multiple conditions to be checked to show elements. We can use multiple `ngIf` directives, but to avoid too much complexity, we are provided with `ngSwitch` directive.
+>The `ngSwitch` directive is used in case, where there are multiple conditions to be checked to show elements. We can use multiple `ngIf` directives, but to avoid too much complexity, we are provided with `ngSwitch` directive.
 
 
 ```html
@@ -62,7 +62,7 @@ The `ngSwitch` directive is used in case, where there are multiple conditions to
 
 #### NgStyle
 
-The `ngStyle` directive can set CSS style properties to DOM Elements.
+>The `ngStyle` directive can set CSS style properties to DOM Elements.
 
 Below are the ways of using `ngStyle` directive.
 
@@ -78,7 +78,7 @@ Below are the ways of using `ngStyle` directive.
 
 #### NgClass
 
-The `ngClass` directive, set and changes CSS classes for the DOM Element.
+>The `ngClass` directive, set and changes CSS classes for the DOM Element.
 
 Usage of `ngClass` is as follows:
 
@@ -104,7 +104,7 @@ To add multiple CSS classes to the HTML Element,
 ```
 #### NgFor
 
-The `ngFor` directive repeats the DOM element by iterating over the each item of the given array.
+>The `ngFor` directive repeats the DOM element by iterating over the each item of the given array.
 
 `ngFor` directive serves the same purpose as `ngRepeat` in Angular JS.
 
@@ -124,4 +124,4 @@ To use the index of the array element,
 ```
 
 #### NgNonBindable
-We use `ngNonBindable` directive when we want tell Angular not to compile or bind a particular section of our page.
+>We use `ngNonBindable` directive when we want tell Angular not to compile or bind a particular section of our page.

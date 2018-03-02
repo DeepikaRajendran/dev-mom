@@ -51,7 +51,7 @@ export class ToysService {
 ```
 The service imports `Injectable` symbol and annotates the class with `@Injectable` decorator, which implies that the service might have injected dependencies.
 
-## DO `Http` request
+## Do `Http` request
 
 `HttpClient` class is used for communicating with a remote server over `Http`
 

@@ -13,7 +13,7 @@ share: true
 > " Children are not a distraction from more important work. They are the most important work."
 ---
 
-The [Angular CLI](https://github.com/angular/angular-cli) is a command-line interface tool to setup the angular development environment and create a project with running code.
+>The [Angular CLI](https://github.com/angular/angular-cli) is a command-line interface tool to setup the angular development environment and create a project with running code.
 
 To setup the development environment,
 #### Install angular-cli globally

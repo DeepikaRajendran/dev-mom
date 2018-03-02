@@ -2,7 +2,7 @@ In this post, we'll see how to build our own pipes.
 
 To glance through the built-in pipes, visit my previous post [here](http://www.developer-mom.com/pipes/)
 
-In short, pipes are used to transform the certain input to give the desired output.
+>Pipes are used to transform the certain input to give the desired output.
 
 Pipes are very easy to use. 
 To transform the input, we use `|` symbol followed by the pipe name.
