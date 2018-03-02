@@ -9,10 +9,10 @@ We'll follow the below steps.
 ## Create Service
 Let's create a `Service` file to place the Http call.
 
-```
-A service file is generally used to make Http calls or to share data between components.
+
+>A service file is generally used to make Http calls or to share data between components.
 Sometimes we need to access code across different components. Instead of creating and rewriting the same code in each component, we can write service files to share data.
-```
+
 
 #### Create  `ToysService`
 
@@ -138,6 +138,10 @@ export class ToysService {
   }
 }
 ```
+Access the Remote URL in the browser, to see the data
+
+![alt-text](/images/empty-night-json-output.png)
+
 
 ## Call `ToysService` in `ToysComponent`
 
@@ -150,10 +154,10 @@ constructor(private toysService: ToysService) {  }
 ```
 When Angular creates a `ToyComponent`, the Dependency Injection system sets the `toysService` parameter to the singleton instance of `ToysService`.
 
-```
-In Angular, services are Singleton. It internally implements the Service Locator Pattern. 
+
+> In Angular, services are Singleton. It internally implements the Service Locator Pattern. 
 This means each service register itself under one container as a single instance. 
-```
+
 Call `getToys()` method on the `toysService` instance of `ToysService`.
 
 ```typescript
@@ -194,5 +198,10 @@ export class ToysComponent implements OnInit {
 
 }
 ```
+Output looks like this:
+
+![alt-img](/images/services-http-output.png)
+
+The data from the remote server is loaded in to the 2nd card and as we applied `color` [custom pipe](http://www.developer-mom.com/custom-pipes/), the list of toys appear in the color of the toy.
 
 Full Source code available [here](https://github.com/DeepikaRajendran/baby-app/tree/custom-pipe)
